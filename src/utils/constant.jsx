@@ -1,3 +1,11 @@
+export const options = {
+  method: "GET",
+  headers: {
+    accept: "application/json",
+    Authorization:
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkZmJiYmNiZWQwZGNiN2Q4MWI4MzI0YmZiYTE3ZjBmYiIsIm5iZiI6MTc1MTI3ODAxNi43MjgsInN1YiI6IjY4NjI2MWMwNDM1ZjkxNzYwMDBkOTY1ZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.leCECSFu5fjECeidfqWy-qcbpTZfShNnw4RjEqJvMYs",
+  },
+};
 
 export const NETFLIX_BG_IMG =
   "https://assets.nflxext.com/ffe/siteui/vlv3/05e91faa-6f6d-4325-934e-5418dcc2567b/web/IN-en-20250630-TRIFECTA-perspective_159086b1-425f-435b-bcd5-1ed8039cdef9_large.jpg";
